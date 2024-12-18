@@ -1,0 +1,6 @@
+kind: Kustomization
+bases:
+- ../../base
+resources: 
+- pvc.yaml
+prefix: prod-
